@@ -1,0 +1,38 @@
+.pets-flex-div {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 3vh 40px;
+}
+
+
+.pets {
+    height: 500px;
+    width: 750px;
+    background-color:#D0EFB1;
+    opacity: .7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pet-boxes {
+    height: 225px;
+    margin: 0px 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.pet-name {
+    color: Black;
+    margin: 0px;
+}
+
+.pet-pictures {
+    height: 175px;
+}
