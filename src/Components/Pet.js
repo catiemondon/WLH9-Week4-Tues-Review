@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import './Pet.css'
 import PetDisplay from './PetDisplay';
 
+
+
 export default class Pet extends Component {
     render() {
         return (
