@@ -63,7 +63,8 @@ module.exports={
         const {id} = req.params;
 
         //next, we will use the array method 'filter' on our pets array to find all the pets that don't have the matching ID. By setting it equal to our same array name, it will modify the value of our original array, making it equal all the pets but the one we wanted deleted. Aka, the desired deleted pet is no longer in the array and effectively 'deleted'
-        pets = pets.filter((pokemon) => pokemon.id !== +id)
+        
+        pets = pets.filter((pets) => pets.id !== +id)
 
         //then we will send the modified array back to our front end. Reminder: because we filtered out the one we wanted deleted, it has been 'deleted' and is no longer being stored on our pets array.
         res.status(200).send(pets)

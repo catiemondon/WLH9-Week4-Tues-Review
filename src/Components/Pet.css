@@ -24,12 +24,13 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    
+    margin-top: 1em;
     
 }
 .pet-boxes img{
     width: 250px;
-    height: 150px;
+    height: 170px;
+    
 }
 .pet-name {
     color: Black;

@@ -33,7 +33,7 @@ handleUpdatePet=(id)=>{
         this.props.updatePet(res.data)
         this.handleToggle()
     })
-}
+} 
 
 handleDeletePet = () => {
     axios.delete(`/api/pets/${this.props.pet.id}`)
